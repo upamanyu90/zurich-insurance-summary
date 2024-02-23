@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .input {
+    width: calc(100% - 2rem); /* Adjust width to consider padding */
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .user-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .user-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .user-info button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .user-info button:hover {
+    background-color: #0056b3;
+  }
+
+  .header {
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__title {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header__user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header__name,
+  .header__email {
+    margin-bottom: 5px;
+  }
+  
+  .header__sign-out-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header__sign-out-btn:hover {
+    text-decoration: underline;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer__content {
+    text-align: center;
+  }
+  
+  .footer__disclosure {
+    margin: 0;
+  }
+  
